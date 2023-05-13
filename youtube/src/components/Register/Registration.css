@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+    background-color:green;
+    }
+    .Register{
+    margin-left: 450px;
+}
+    
+    .label{
+    display: block;
+    font-size: larger;
+    color: black;
+    padding: 5px;
+    }
+    
+    .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid black;
+    }
+    .btn{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    /* margin: 25px 0px 0px 70px; */
+    }
+    
+    .messages{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    
+    .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    .Register {
+        border-radius: 20px;
+        margin-top: 200px;
+        border: 2px solid gray;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 500px;
+        height: 600px;
+        /* box-shadow:  10px 20px 10px solid gray; */
+    }    
